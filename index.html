@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Etch-a-Sketch</title>
+    <style>
+      .tiles-container {
+        display: flex;
+        flex-wrap: wrap;
+        width: 400px;
+        height: 400px;
+        margin: 10px 0;
+      }
+
+      .tile {
+        border: 1px solid black;
+        box-sizing: border-box;
+      }
+    </style>
+  </head>
+  <body>
+    <button id="generateTiles">Generate A Tiles</button>
+    <button id="reset">Reset</button>
+    <div class="tiles-container"></div>
+    <script src="./script.js"></script>
+  </body>
+</html>
